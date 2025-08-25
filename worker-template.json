@@ -1,0 +1,15 @@
+{
+	"edgeworker-id": 0,
+	"main": "./src/main.ts",
+	"edgeworker-version": "0.0.0",
+	"description": "An Akamai EdgeWorker config template",
+	"config": {
+		"logging": {
+			"level": "debug"
+		},
+		"subrequest": {
+			"invoke-for-edgeworker-clients": false
+		},
+		"client-ip-header": true
+	}
+}

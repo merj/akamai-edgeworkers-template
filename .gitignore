@@ -1,0 +1,37 @@
+### GENERAL
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.supported
+
+# VS Code
+# note: some configruations might be worth included in version control
+.vscode/
+
+# JetBrains IDEs
+# see https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# ignore everytging for now
+.idea/
+
+# common files
+*.log
+
+# local-only files (may be useful during development)
+*.local.*
+*.local
+
+
+### PROJECT
+
+# Node.js, npm
+/node_modules/
+
+# CI temp output files
+/temp/
+
+# build and deploy artifacts
+/dist/
